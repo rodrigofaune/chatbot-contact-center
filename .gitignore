@@ -2,40 +2,26 @@
 __pycache__/
 *.py[cod]
 *$py.class
-*.so
-.Python
-env/
-venv/
-ENV/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
 
-# Environment variables
+# Virtual Environment
+venv/
+env/
+.env/
+ENV/
+
+# Environment Variables
 .env
 .env.*
 !.env.example
 
-# Google Cloud & API Keys
+# Google Cloud & Credentials
 service-account.json
 *-service-account.json
-*.pem
-*.p12
 credentials.json
 token.json
 client_secrets.json
-google-credentials.json
+*.pem
+*.p12
 
 # IDE files
 .idea/
@@ -48,45 +34,22 @@ google-credentials.json
 # Logs
 *.log
 logs/
-log.txt
-
-# Machine Learning specific
-*.h5
-*.pkl
-*.model
-*.joblib
-*.pt
-*.pth
-models/
-embeddings/
-vectors/
 
 # Database
 *.db
 *.sqlite
 *.sqlite3
-sessions.db
-*.db-shm
-*.db-wal
 
-# Test and coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-
-# Jupyter
-.ipynb_checkpoints
-*.ipynb
+# Machine Learning
+models/
+embeddings/
+vectors/
 
 # Docker
 .dockerignore
 
-# Misc
+# Test and coverage
+htmlcov/
+.coverage
 .pytest_cache/
 .mypy_cache/
