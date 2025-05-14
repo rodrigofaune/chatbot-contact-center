@@ -21,4 +21,5 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
-sessions.db 
+sessions.db
+venv/
